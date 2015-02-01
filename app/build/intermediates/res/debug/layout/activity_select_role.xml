@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ba_01"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98dp" >
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_home_" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="173dp" >
+
+            <ImageButton
+                android:id="@+id/bt_grandFather"
+                android:layout_width="178dp"
+                android:layout_height="173dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt_1grandfather" />
+
+            <ImageButton
+                android:id="@+id/bt_grandMother"
+                android:layout_width="178dp"
+                android:layout_height="173dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt_2grandmother" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="173dp" >
+
+            <ImageButton
+                android:id="@+id/bt_father"
+                android:layout_width="178dp"
+                android:layout_height="173dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt_3father" />
+
+            <ImageButton
+                android:id="@+id/bt_mother"
+                android:layout_width="178dp"
+                android:layout_height="173dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt_4mother" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="173dp" >
+
+            <ImageButton
+                android:id="@+id/bt_sun"
+                android:layout_width="178dp"
+                android:layout_height="173dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt_4sun" />
+
+            <ImageButton
+                android:id="@+id/bt_daughter"
+                android:layout_width="178dp"
+                android:layout_height="173dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt_6daughter" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/src/main/res/layout/activity_select_role.xml -->

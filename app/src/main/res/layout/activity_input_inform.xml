@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ba_01"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp" >
+
+        <LinearLayout
+            android:layout_width="147dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:src="@drawable/ic_home_" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_inputName"
+        android:background="@drawable/edit_text_1"
+        android:height="52dp"
+        android:layout_width="match_parent"
+        android:hint="성명   user name"
+        android:inputType="textPersonName"
+        android:paddingLeft="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/bt_birthday"
+            android:background="@drawable/edit_text_2"
+            android:height="52dp"
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+          />
+        <TextView
+            android:id="@+id/tv_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="65dp"
+            android:clickable="false"
+            android:hint="생일   birthday"
+            android:textSize="18dip"
+         />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:id="@+id/bt_send"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp" />
+
+
+</LinearLayout>
