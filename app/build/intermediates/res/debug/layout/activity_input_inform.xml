@@ -34,7 +34,7 @@
         android:layout_height="60dp"
         android:layout_margin="2dp"/>
     <FrameLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <ImageButton
@@ -58,6 +58,18 @@
          />
     </FrameLayout>
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:id="@+id/bt_send"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp" />
 
 
 </LinearLayout><!-- From: file:/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/src/main/res/layout/activity_input_inform.xml -->
