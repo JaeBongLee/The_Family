@@ -5,7 +5,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/ba_01"
+        android:background="@drawable/ba_02"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -38,7 +38,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_1grandfather" />
+                android:src="@drawable/bt_1grandfather"
+                android:layout_margin="2dp" />
 
             <ImageButton
                 android:id="@+id/bt_grandMother"
@@ -47,7 +48,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_2grandmother" />
+                android:src="@drawable/bt_2grandmother"
+                android:layout_margin="2dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -61,7 +63,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_3father" />
+                android:src="@drawable/bt_3father"
+                android:layout_margin="2dp"/>
 
             <ImageButton
                 android:id="@+id/bt_mother"
@@ -70,7 +73,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_4mother" />
+                android:src="@drawable/bt_4mother"
+                android:layout_margin="2dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -84,7 +88,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_5sun" />
+                android:src="@drawable/bt_5sun"
+                android:layout_margin="2dp"/>
 
             <ImageButton
                 android:id="@+id/bt_daughter"
@@ -93,7 +98,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_6daughter" />
+                android:src="@drawable/bt_6daughter"
+                android:layout_margin="2dp"/>
 
         </LinearLayout>
     </LinearLayout>
