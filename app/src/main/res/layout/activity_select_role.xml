@@ -84,7 +84,7 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_4sun" />
+                android:src="@drawable/bt_5sun" />
 
             <ImageButton
                 android:id="@+id/bt_daughter"

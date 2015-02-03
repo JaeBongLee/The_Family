@@ -10,6 +10,13 @@
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -31,6 +38,10 @@
         <activity
             android:name="com.example.thefamily_proto.InputInform"
             android:label="@string/title_activity_input_inform" >
+        </activity>
+        <activity
+            android:name="com.example.thefamily_proto.AddFamilyMember"
+            android:label="@string/title_activity_add_family_member" >
         </activity>
     </application>
 

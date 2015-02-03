@@ -9,6 +9,13 @@
         <dex dex="/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/pre-dexed/debug/classes-39e53d6381ee292ddd79c49a279e3c38552bd964.jar" />
     </item>
     <item
+        jar="/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/libs/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-0998a1fa6d4c3c0c8342f823ee7aebe6b07dd978.jar" />
+    </item>
+    <item
         jar="/Users/JaeBong/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
