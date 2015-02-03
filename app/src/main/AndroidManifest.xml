@@ -4,11 +4,18 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
 
     <application
         android:allowBackup="true"
@@ -31,6 +38,10 @@
         <activity
             android:name=".InputInform"
             android:label="@string/title_activity_input_inform" >
+        </activity>
+        <activity
+            android:name=".AddFamilyMember"
+            android:label="@string/title_activity_add_family_member" >
         </activity>
     </application>
 

@@ -814,23 +814,29 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ba_01=0x7f020057;
-        public static final int bt_1grandfather=0x7f020058;
-        public static final int bt_2grandmother=0x7f020059;
-        public static final int bt_3father=0x7f02005a;
-        public static final int bt_4mother=0x7f02005b;
-        public static final int bt_4sun=0x7f02005c;
-        public static final int bt_6daughter=0x7f02005d;
-        public static final int bt_no=0x7f02005e;
-        public static final int bt_yes=0x7f02005f;
-        public static final int edit_text_1=0x7f020060;
-        public static final int edit_text_2=0x7f020061;
-        public static final int edit_text_3=0x7f020062;
-        public static final int ic_home=0x7f020063;
-        public static final int ic_home_=0x7f020064;
-        public static final int ic_launcher=0x7f020065;
+        public static final int ba_02=0x7f020058;
+        public static final int bt_1grandfather=0x7f020059;
+        public static final int bt_2grandmother=0x7f02005a;
+        public static final int bt_3father=0x7f02005b;
+        public static final int bt_4mother=0x7f02005c;
+        public static final int bt_5sun=0x7f02005d;
+        public static final int bt_6daughter=0x7f02005e;
+        public static final int bt_no=0x7f02005f;
+        public static final int bt_no_black=0x7f020060;
+        public static final int bt_no_white=0x7f020061;
+        public static final int bt_yes=0x7f020062;
+        public static final int bt_yes_black=0x7f020063;
+        public static final int bt_yes_white=0x7f020064;
+        public static final int edit_text_1=0x7f020065;
+        public static final int edit_text_2=0x7f020066;
+        public static final int edit_text_3=0x7f020067;
+        public static final int edit_text_4=0x7f020068;
+        public static final int ic_home=0x7f020069;
+        public static final int ic_home_=0x7f02006a;
+        public static final int ic_launcher=0x7f02006b;
     }
     public static final class id {
-        public static final int TextView01=0x7f08003e;
+        public static final int TextView01=0x7f080040;
         public static final int action_bar=0x7f08001c;
         public static final int action_bar_activity_content=0x7f080000;
         public static final int action_bar_container=0x7f08001b;
@@ -842,21 +848,22 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080001;
         public static final int action_menu_presenter=0x7f080002;
         public static final int action_mode_close_button=0x7f080024;
-        public static final int action_settings=0x7f08004b;
+        public static final int action_settings=0x7f08004d;
         public static final int activity_chooser_view_content=0x7f080025;
         public static final int always=0x7f080013;
-        public static final int appName=0x7f08003d;
+        public static final int appName=0x7f08003f;
         public static final int beginning=0x7f08000f;
-        public static final int bt_birthday=0x7f080042;
-        public static final int bt_daughter=0x7f08004a;
-        public static final int bt_father=0x7f080047;
-        public static final int bt_grandFather=0x7f080045;
-        public static final int bt_grandMother=0x7f080046;
-        public static final int bt_mother=0x7f080048;
-        public static final int bt_send=0x7f080044;
-        public static final int bt_sun=0x7f080049;
-        public static final int btn_no=0x7f080040;
-        public static final int btn_yes=0x7f08003f;
+        public static final int bt_birthday=0x7f080044;
+        public static final int bt_daughter=0x7f08004c;
+        public static final int bt_father=0x7f080049;
+        public static final int bt_grandFather=0x7f080047;
+        public static final int bt_grandMother=0x7f080048;
+        public static final int bt_mother=0x7f08004a;
+        public static final int bt_send=0x7f080046;
+        public static final int bt_sendInviteMessage=0x7f08003d;
+        public static final int bt_sun=0x7f08004b;
+        public static final int btn_no=0x7f080042;
+        public static final int btn_yes=0x7f080041;
         public static final int checkbox=0x7f08002d;
         public static final int collapseActionView=0x7f080014;
         public static final int default_activity_button=0x7f080028;
@@ -865,7 +872,7 @@ containing a value of this type.
         public static final int dropdown=0x7f080019;
         public static final int edit_query=0x7f080030;
         public static final int end=0x7f080010;
-        public static final int et_inputName=0x7f080041;
+        public static final int et_inputName=0x7f080043;
         public static final int expand_activities_button=0x7f080026;
         public static final int expanded_menu=0x7f08002c;
         public static final int home=0x7f080003;
@@ -873,7 +880,8 @@ containing a value of this type.
         public static final int icon=0x7f08002a;
         public static final int ifRoom=0x7f080015;
         public static final int image=0x7f080027;
-        public static final int imageView1=0x7f08003c;
+        public static final int imageView1=0x7f08003e;
+        public static final int inviteList=0x7f08003c;
         public static final int listMode=0x7f080006;
         public static final int list_item=0x7f080029;
         public static final int middle=0x7f080011;
@@ -902,7 +910,7 @@ containing a value of this type.
         public static final int tabMode=0x7f080008;
         public static final int title=0x7f08002b;
         public static final int top_action_bar=0x7f080020;
-        public static final int tv_birthday=0x7f080043;
+        public static final int tv_birthday=0x7f080045;
         public static final int up=0x7f080021;
         public static final int useLogo=0x7f08000e;
         public static final int withText=0x7f080017;
@@ -935,15 +943,17 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_check_family=0x7f030018;
-        public static final int activity_input_inform=0x7f030019;
-        public static final int activity_select_role=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_add_family_member=0x7f030018;
+        public static final int activity_check_family=0x7f030019;
+        public static final int activity_input_inform=0x7f03001a;
+        public static final int activity_select_role=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class menu {
         public static final int check_family=0x7f0c0000;
         public static final int input_inform=0x7f0c0001;
-        public static final int select_role=0x7f0c0002;
+        public static final int menu_add_family_member=0x7f0c0002;
+        public static final int select_role=0x7f0c0003;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;
@@ -962,8 +972,9 @@ containing a value of this type.
         public static final int action_settings=0x7f0a000d;
         public static final int app_name=0x7f0a000e;
         public static final int hello_world=0x7f0a000f;
-        public static final int title_activity_input_inform=0x7f0a0010;
-        public static final int title_activity_select_role=0x7f0a0011;
+        public static final int title_activity_add_family_member=0x7f0a0010;
+        public static final int title_activity_input_inform=0x7f0a0011;
+        public static final int title_activity_select_role=0x7f0a0012;
     }
     public static final class style {
         /** 
