@@ -59,7 +59,7 @@ public class InputInform extends Activity implements View.OnClickListener {
         @Override
         public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
             //picker에서 입력받은 생일을 저장
-            date = String.format("%d / %d / %d", year, monthOfYear + 1, dayOfMonth);
+            date = String.format("%d%d%d", year, monthOfYear + 1, dayOfMonth);
             //birthday에 date정보를 string으로 저장
             birthday.setText(date);
         }

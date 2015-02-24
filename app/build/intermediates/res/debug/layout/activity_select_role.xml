@@ -5,7 +5,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/ba_01"
+        android:background="@drawable/ba_02"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -13,7 +13,7 @@
             android:layout_height="98dp" >
 
             <LinearLayout
-                android:layout_width="130dp"
+                android:layout_width="114.25dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical" >
             </LinearLayout>
@@ -23,13 +23,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_home_" />
+                android:src="@drawable/ic_home" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="173dp" >
+            android:layout_height="173dp"
+            android:layout_marginLeft="6dp">
 
             <ImageButton
                 android:id="@+id/bt_grandFather"
@@ -38,7 +39,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_1grandfather" />
+                android:src="@drawable/bt_1grandfather"
+                android:layout_margin="2dp" />
 
             <ImageButton
                 android:id="@+id/bt_grandMother"
@@ -47,12 +49,14 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_2grandmother" />
+                android:src="@drawable/bt_2grandmother"
+                android:layout_margin="2dp"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="173dp" >
+            android:layout_height="173dp"
+            android:layout_marginLeft="6dp">
 
             <ImageButton
                 android:id="@+id/bt_father"
@@ -61,7 +65,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_3father" />
+                android:src="@drawable/bt_3father"
+                android:layout_margin="2dp"/>
 
             <ImageButton
                 android:id="@+id/bt_mother"
@@ -70,12 +75,14 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_4mother" />
+                android:src="@drawable/bt_4mother"
+                android:layout_margin="2dp"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="173dp" >
+            android:layout_height="173dp"
+            android:layout_marginLeft="6dp">
 
             <ImageButton
                 android:id="@+id/bt_sun"
@@ -84,7 +91,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_5sun" />
+                android:src="@drawable/bt_5sun"
+                android:layout_margin="2dp"/>
 
             <ImageButton
                 android:id="@+id/bt_daughter"
@@ -93,7 +101,8 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_6daughter" />
+                android:src="@drawable/bt_6daughter"
+                android:layout_margin="2dp"/>
 
         </LinearLayout>
     </LinearLayout>

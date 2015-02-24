@@ -6,8 +6,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:id="@+id/">
+        android:layout_height="120dp">
 
     </LinearLayout>
 
@@ -120,7 +119,7 @@
                 android:adjustViewBounds="true"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bt_no_black" />
+                android:src="@drawable/bt_no_white" />
 
         </LinearLayout>
 

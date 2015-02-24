@@ -43,6 +43,10 @@
             android:name=".AddFamilyMember"
             android:label="@string/title_activity_add_family_member" >
         </activity>
+        <activity
+            android:name=".CustomContact"
+            android:label="@string/title_activity_custom_contact" >
+        </activity>
     </application>
 
 </manifest>

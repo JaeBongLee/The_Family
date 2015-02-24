@@ -13,7 +13,7 @@
             android:layout_height="98dp" >
 
             <LinearLayout
-                android:layout_width="130dp"
+                android:layout_width="114.25dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical" >
             </LinearLayout>
@@ -23,13 +23,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_home_" />
+                android:src="@drawable/ic_home" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="173dp" >
+            android:layout_height="173dp"
+            android:layout_marginLeft="6dp">
 
             <ImageButton
                 android:id="@+id/bt_grandFather"
@@ -54,7 +55,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="173dp" >
+            android:layout_height="173dp"
+            android:layout_marginLeft="6dp">
 
             <ImageButton
                 android:id="@+id/bt_father"
@@ -79,7 +81,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="173dp" >
+            android:layout_height="173dp"
+            android:layout_marginLeft="6dp">
 
             <ImageButton
                 android:id="@+id/bt_sun"
