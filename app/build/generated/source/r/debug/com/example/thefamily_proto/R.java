@@ -967,9 +967,9 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_add_family_member=0x7f030018;
-        public static final int activity_check_family=0x7f030019;
-        public static final int activity_input_inform=0x7f03001a;
-        public static final int activity_select_role=0x7f03001b;
+        public static final int activity_p1_check_family =0x7f030019;
+        public static final int activity_p3_input_inform =0x7f03001a;
+        public static final int activity_p2_select_role =0x7f03001b;
         public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class menu {

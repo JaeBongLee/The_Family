@@ -12,7 +12,7 @@ public class SelectRole extends Activity implements View.OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_select_role);
+		setContentView(R.layout.activity_p2_select_role);
 
         ActionBar actionBar = getActionBar();
         actionBar.hide();

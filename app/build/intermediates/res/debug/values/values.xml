@@ -143,7 +143,10 @@
     <string name="app_name">TheFamily_proto</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_add_family_member">AddFamilyMember</string>
+    <string name="title_activity_custom_contact">CustomContact</string>
     <string name="title_activity_input_inform">InputInform</string>
+    <string name="title_activity_p4_home">p4_home</string>
+    <string name="title_activity_p5_view_all">p5_view_all</string>
     <string name="title_activity_select_role">SelectRole</string>
     <!-- From: file:/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/src/main/res/values/styles.xml -->
     <eat-comment/>

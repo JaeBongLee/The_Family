@@ -47,6 +47,14 @@
             android:name=".CustomContact"
             android:label="@string/title_activity_custom_contact" >
         </activity>
+        <activity
+            android:name=".p4_home"
+            android:label="@string/title_activity_p4_home" >
+        </activity>
+        <activity
+            android:name=".p5_view_all"
+            android:label="@string/title_activity_p5_view_all" >
+        </activity>
     </application>
 
 </manifest>

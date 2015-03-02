@@ -19,7 +19,7 @@ public class CheckFamily extends Activity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_check_family);
+		setContentView(R.layout.activity_p1_check_family);
 		
 		ActionBar actionBar = getActionBar();
 		actionBar.hide();

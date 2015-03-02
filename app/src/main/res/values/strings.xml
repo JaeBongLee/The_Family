@@ -8,5 +8,7 @@
     <string name="title_activity_input_inform">InputInform</string>
     <string name="title_activity_add_family_member">AddFamilyMember</string>
     <string name="title_activity_custom_contact">CustomContact</string>
+    <string name="title_activity_p4_home">p4_home</string>
+    <string name="title_activity_p5_view_all">p5_view_all</string>
 
 </resources>

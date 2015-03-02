@@ -24,7 +24,7 @@ public class InputInform extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_input_inform);
+        setContentView(R.layout.activity_p3_input_inform);
 
         //ActionBar를 숨긴다.
         ActionBar actionBar = getActionBar();
