@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="117.25dp"
+        android:id="@+id/back_image"
+        android:src="@drawable/p9_bg_memo"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="105dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/year_month"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dip"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/day"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="55dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/week_of_day"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dip" />
+</FrameLayout>

@@ -9,6 +9,7 @@
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <android:uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -42,6 +43,18 @@
         <activity
             android:name="com.example.thefamily_proto.AddFamilyMember"
             android:label="@string/title_activity_add_family_member" >
+        </activity>
+        <activity
+            android:name="com.example.thefamily_proto.CustomContact"
+            android:label="@string/title_activity_custom_contact" >
+        </activity>
+        <activity
+            android:name="com.example.thefamily_proto.p4_home"
+            android:label="@string/title_activity_p4_home" >
+        </activity>
+        <activity
+            android:name="com.example.thefamily_proto.p5_view_all"
+            android:label="@string/title_activity_p5_view_all" >
         </activity>
     </application>
 

@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.thefamily_proto.p5_view_all"
     android:orientation="vertical"
-    android:background="@drawable/p1_ba_p1">
+    android:background="@drawable/p5_bg_up_p5_10">
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -108,31 +108,34 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="10">
+        android:layout_weight="8">
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:id="@+id/imageButton7"
-            android:background="transparent"
-            android:src="@drawable/p6_ic_all_oc_n02"
-            android:layout_weight="33.3" />
+            android:id="@+id/btn_viewAll_all"
+            android:background="@null"
+            android:src="@drawable/p5_10_ic_all_oc"
+            android:layout_weight="33.3"
+            android:scaleType="fitStart" />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:id="@+id/imageButton8"
-            android:background="transparent"
-            android:src="@drawable/p6_ic_gallery_n02"
-            android:layout_weight="33.3" />
+            android:background="@null"
+            android:src="@drawable/p5_10_ic_gallery"
+            android:layout_weight="33.3"
+            android:scaleType="fitStart" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:background="transparent"
+            android:background="@null"
             android:layout_height="fill_parent"
             android:id="@+id/imageButton9"
-            android:src="@drawable/p6_ic_memo_n02"
-            android:layout_weight="33.3" />
+            android:src="@drawable/p5_10_ic_memo"
+            android:layout_weight="33.3"
+            android:scaleType="fitStart" />
     </LinearLayout>
 
     <LinearLayout
@@ -145,7 +148,7 @@
         <GridView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/gridView2"
+            android:id="@+id/postView"
             android:numColumns="3" />
     </LinearLayout>
 

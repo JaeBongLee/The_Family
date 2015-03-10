@@ -1,39 +1,82 @@
 package com.example.thefamily_proto;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.ActionBar;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.os.Handler;
+import android.util.Log;
+import android.view.View;
+import android.widget.GridView;
+import android.widget.ImageButton;
+
+import java.util.ArrayList;
 
 
-public class p5_view_all extends ActionBarActivity {
+public class p5_view_all extends Activity implements View.OnClickListener{
+
+    private final Handler handler = new Handler();
+    private Dao dao ;
+    private ArrayList<Post> postList;
+    protected ImageButton btn_viewAll_all;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_p5_view_all);
+
+        ActionBar actionBar = getActionBar();
+        actionBar.hide();
+
+        dao = new Dao(getApplicationContext());
+        btn_viewAll_all = (ImageButton)findViewById(R.id.btn_viewAll_all);
+
+        btn_viewAll_all.setOnClickListener(this);
+        refreshData();
+
     }
 
+    private void refreshData(){
+        new Thread(){
+            public void run(){
+            Log.i("test","refresh Start");
+            Proxy proxy = new Proxy();
+            String jsonData = proxy.getAllContents();
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_p5_view_all, menu);
-        return true;
+            Log.i("test","jsonData " + jsonData);
+
+            dao.insertJsonData(jsonData);
+
+            Log.i("test","Dao done");
+
+            handler.post(new Runnable(){
+                public void run(){
+                    setGridView();
+                }
+            });
+            }
+        }.start();
+    }
+
+    private void setGridView(){
+        //DataBase���� ������ �о��
+        postList = dao.getPostList();
+
+        Log.i("test","PostList[0] = " + postList.get(0).toString());
+
+
+        ViewAllAdapter adapter = new ViewAllAdapter(this,R.layout.view_all_block_image,postList);
+        GridView postView = (GridView)findViewById(R.id.postView);
+        postView.setAdapter(adapter);
+        Log.i("test","setAdapter Done");
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.btn_viewAll_all:
+                refreshData();
+                break;
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
         }
-
-        return super.onOptionsItemSelected(item);
     }
 }

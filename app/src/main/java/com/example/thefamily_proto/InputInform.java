@@ -3,6 +3,7 @@ package com.example.thefamily_proto;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,9 +18,11 @@ public class InputInform extends Activity implements View.OnClickListener {
 
     int year, month, day;
     ImageButton birthdayButton;
+    ImageButton sendButton;
     TextView birthday;
     String date;
     Button next;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +42,10 @@ public class InputInform extends Activity implements View.OnClickListener {
         birthdayButton = (ImageButton) findViewById(R.id.bt_birthday);
         birthday = (TextView) findViewById(R.id.tv_birthday);
 
+        sendButton = (ImageButton)findViewById(R.id.bt_send);
         //생일입력 버튼을 만듬
         birthdayButton.setOnClickListener(this);
+        sendButton.setOnClickListener(this);
 
     }
 
@@ -48,9 +53,16 @@ public class InputInform extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch(v.getId()){
+            case R.id.bt_send:
+                Intent intent = new Intent(this,p4_home.class);
+                startActivity(intent);
+                break;
+
             //생일입력버튼을 누르면 생일을 입력하는 pickerDilaog를 띄우게 함
             case R.id.bt_birthday:
                 new DatePickerDialog(this, dateSetListener, year, month, day).show();
+                break;
+
 
         }
     }
@@ -59,7 +71,7 @@ public class InputInform extends Activity implements View.OnClickListener {
         @Override
         public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
             //picker에서 입력받은 생일을 저장
-            date = String.format("%d%d%d", year, monthOfYear + 1, dayOfMonth);
+            date = String.format("%d/%d/%d", year, monthOfYear + 1, dayOfMonth);
             //birthday에 date정보를 string으로 저장
             birthday.setText(date);
         }

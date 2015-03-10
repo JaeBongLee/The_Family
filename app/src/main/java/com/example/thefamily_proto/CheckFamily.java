@@ -37,7 +37,7 @@ public class CheckFamily extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		switch(v.getId()){
 		case R.id.btn_yes:
-            btn_yes.setImageResource(R.drawable.bt_yes_black);
+            btn_yes.setImageResource(R.drawable.p1_bt_yes_black);
 
 			//핸드폰 번호 정보를 검색해서 
 			TelephonyManager tMgr = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
@@ -53,11 +53,11 @@ public class CheckFamily extends Activity implements OnClickListener {
 			// 새로운 화면을 띄운다.
 			Intent intent = new Intent(this,SelectRole.class);
 			startActivity(intent);
-            btn_yes.setImageResource(R.drawable.bt_yes_white);
+            btn_yes.setImageResource(R.drawable.p1_bt_yes_white);
 			break;
 			
          case R.id.btn_no:
-            btn_no.setImageResource(R.drawable.bt_no_black);
+            btn_no.setImageResource(R.drawable.p1_bt_no_black);
             break;
 		}
 		

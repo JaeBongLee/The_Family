@@ -1,4 +1,6 @@
 /Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/classes/debug
 /Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-0998a1fa6d4c3c0c8342f823ee7aebe6b07dd978.jar
+/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/pre-dexed/debug/picasso-2.5.0-02e402e4735eff591de010425724cc842d579b67.jar
+/Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/pre-dexed/debug/gson-2.3.1-0942dc108de5e8ce8b443193800736846bb27200.jar
 /Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/pre-dexed/debug/classes-39e53d6381ee292ddd79c49a279e3c38552bd964.jar
 /Users/JaeBong/AndroidstudioProjects/TheFamily_proto/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-b56723d449077fe1997a03192fc817c9dccdabf5.jar

@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.thefamily_proto.p4_home"
     android:orientation="vertical"
-    android:background="@drawable/p4_ba_p4">
+    android:background="@drawable/p4_ba">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -27,7 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:id="@+id/imageButton"
+            android:id="@+id/btn_home"
             android:scaleType="fitStart"
             android:layout_weight="10"
             android:src="@drawable/p4_ic_home" />
@@ -42,7 +42,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:id="@+id/imageButton2"
+            android:id="@+id/btn_viewAll"
             android:layout_weight="8.8"
             android:scaleType="fitStart"
             android:src="@drawable/p4_ic_moment" />
@@ -57,7 +57,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:id="@+id/imageButton3"
+            android:id="@+id/btn_chat"
             android:src="@drawable/p4_ic_chat"
             android:scaleType="fitStart"
             android:layout_weight="8" />
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:scaleType="fitStart"
             android:background="@android:color/transparent"
-            android:id="@+id/imageButton4"
+            android:id="@+id/btn_notification"
             android:src="@drawable/p4_ic_alarm"
             android:layout_weight="7.2" />
 
@@ -87,7 +87,7 @@
             android:layout_width="0dp"
             android:background="@android:color/transparent"
             android:layout_height="wrap_content"
-            android:id="@+id/imageButton5"
+            android:id="@+id/btn_setting"
             android:scaleType="fitStart"
             android:src="@drawable/p4_ic_setting"
             android:layout_weight="7.7" />
